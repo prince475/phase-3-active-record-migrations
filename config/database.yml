@@ -1,3 +1,7 @@
+# Active record takes care of creating and modifying the tables
+# This file tells the AR how to connect to the db
+# by showing AR which adapter to use, and name od db file.
+
 development:
   adapter: sqlite3
   database: db/development.sqlite3
